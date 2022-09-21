@@ -46,14 +46,19 @@ header, nav, main, footer{
 	margin: 20px 0;
 }
 
-img{
+img {
     height: 175px;
-	width:auto;
+    width:  auto;
     border: 3px solid rgb(13, 13, 19);
-    padding: 3px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 30px;
+    display: inline;
 }
+
+img:hover, img:focus {
+    box-shadow: 10px 10px 5px #376F70
+}
+	
 
 nav li{
 	background-color: #ECFF4D;
